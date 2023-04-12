@@ -41,6 +41,8 @@ function resetMenu(){
         });
     }
 }
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -58,4 +60,17 @@ function showDivs(n) {
         x[i].style.display = "none";
     }
     x[slideIndex - 1].style.display = "block";
+}
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("main-wrapper");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
 }
