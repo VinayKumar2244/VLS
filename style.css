@@ -35,6 +35,7 @@ body{
     padding-top: 0.7rem;
     padding-bottom: 0.9rem;
 }
+
 .parent{
     height: 100px;
     width:100%;
@@ -167,38 +168,7 @@ body{
 .sub-menu-item{
     padding-left: 1.2rem;
 }
-.sub-menu-item:nth-child(3){
-    background: #ddd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.sub-menu-item:nth-child(3) h2{
-    text-transform: capitalize;
-    margin: 1.5rem 0;
-}
-.sub-menu-item:nth-child(3) .btn{
-    border: 1px solid #000;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    padding: 0.6rem 1rem;
-    cursor: pointer;
-    background: #000;
-    color: #fff;
-    transition: all 0.5s ease;
-}
-.sub-menu-item:nth-child(3) .btn:hover{
-    background: transparent;
-    color: #000;
-}
-.sub-menu-item:nth-child(4){
-    width: 50%;
-    margin: 0 auto;
-    padding: 2rem 0;
-}
+
 .main-first{
     display: inline-block;
     height: 550px;
